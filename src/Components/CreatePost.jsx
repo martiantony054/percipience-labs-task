@@ -51,6 +51,7 @@ const CreatePost = ({ mode, initialData, onSave, onClose , showToast }) => {
         <textarea
           value={form.description}
           onChange={(e) => setForm({ ...form, description: e.target.value })}
+          placeholder="description"
         />
 
         <input
