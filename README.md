@@ -1,16 +1,108 @@
-# React + Vite
+# 📝 Postcraft – React CRUD Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern CRUD (Create, Read, Update, Delete) application built using React.
+Users can create posts with images, edit them, view details, and delete posts — all stored locally using browser storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://percipience-labs-task-git-main-martiantony054s-projects.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 https://github.com/martiantony054/percipience-labs-task
+
+---
+
+## ✨ Features
+
+* ➕ Create new posts with title, description, and image
+* ✏️ Edit existing posts
+* 👁️ View post details in modal
+* 🗑️ Delete posts with confirmation
+* 💾 Data persistence using localStorage
+* 🔔 Toast notifications for actions
+* 🎨 Clean and responsive UI
+* 🖼️ Image upload with preview (PNG/JPG supported)
+
+---
+
+## 🛠️ Tech Stack
+
+* React (Hooks)
+* JavaScript (ES6+)
+* CSS (Custom styling)
+* Material UI (Modal component)
+* Local Storage API
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── Components/
+│   ├── Header.jsx
+│   ├── Default.jsx
+│   ├── Card.jsx
+│   ├── CreatePost.jsx
+│   ├── EditPost.jsx
+│   ├── Confirm.jsx
+│   └── Toast.jsx
+│
+├── Utils/
+│   └── Storage.js
+│
+├── styles/
+│   └── Card.css
+    └── Default.css
+    └── Header.css
+    └── Modal.css
+    └── Toast.css
+    
+│
+└── App.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone YOUR_GITHUB_LINK
+
+# Navigate to project
+cd YOUR_PROJECT_NAME
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+```
+
+---
+
+
+## 📌 Notes
+
+* Images are stored as preview URLs (not uploaded to server)
+* Data is stored in browser localStorage
+* No backend is used in this version
+
+---
+
+## 🙋‍♂️ Author
+
+**Martin Antony**
+
+---
+
+## 📬 Feedback
+
+Feel free to share your feedback or suggestions.
