@@ -1,0 +1,37 @@
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  gap: 1rem;
+
+  padding: 5rem 1rem;
+}
+
+.empty-icon {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 50%;
+  border: 1px dashed var(--border2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.empty-state h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+}
+
+.empty-state p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  max-width: 300px;
+}

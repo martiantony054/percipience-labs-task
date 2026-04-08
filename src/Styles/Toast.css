@@ -1,0 +1,15 @@
+.toast {
+position: fixed;
+bottom: 20px;
+right: 20px;
+padding: 10px 15px;
+border-radius: 6px;
+}
+
+.toast.success {
+background: var(--success);
+}
+
+.toast.danger {
+background: var(--danger);
+}

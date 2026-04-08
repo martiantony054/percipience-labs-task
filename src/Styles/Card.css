@@ -1,0 +1,53 @@
+.card-body {
+padding: 1rem;
+}
+
+.card-title {
+font-family: var(--font-display);
+}
+
+.card-desc {
+color: var(--muted);
+font-size: 0.85rem;
+}
+
+.card-actions {
+display: flex;
+}
+
+.card-actions button {
+flex: 1;
+padding: 0.5rem;
+}
+.post-card {
+background: var(--surface);
+border: 1px solid var(--border);
+border-radius: var(--radius);
+overflow: hidden;
+transition: 0.3s;
+cursor: pointer;
+}
+
+.post-card:hover {
+transform: translateY(-3px);
+}
+
+.post-img-wrap {
+aspect-ratio: 16/9;
+background: var(--surface2);
+}
+
+.post-img-wrap img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.post-img-placeholder {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+
+
